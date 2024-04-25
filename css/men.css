@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+    margin-top: 200px;
+}
+
+.cart {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Add styles for cart items, modify, and remove buttons */
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#cart-items button {
+    margin-left: 10px;
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for font-awesome icons */
+#cart-items .fa {
+    margin-right: 5px;
+}

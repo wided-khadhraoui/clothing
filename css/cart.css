@@ -1,0 +1,57 @@
+
+
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#cart-table th, #cart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#cart-table th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cart-total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Ajout de styles pour rendre le tableau centré */
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 200px; /* Augmentez la valeur de la marge supérieure pour plus d'espace */
+  margin-bottom: 20px; /* Ajoutez une marge inférieure si nécessaire */
+}
+
+
+
+
+
+
+
+
+
+
